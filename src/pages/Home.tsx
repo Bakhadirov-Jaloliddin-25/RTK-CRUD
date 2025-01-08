@@ -87,7 +87,7 @@ const Home = () => {
   return (
     <div className="flex">
       <div
-        className={`w-[300px] h-full bg-slate-300 dark:bg-slate-800 duration-300 fixed top-16 left-0 z-10 ${
+        className={`w-[300px] h-full bg-slate-300 dark:bg-slate-800 duration-300 fixed top-18 left-0 z-10 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
